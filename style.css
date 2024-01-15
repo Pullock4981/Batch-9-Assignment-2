@@ -4,7 +4,7 @@
 
 .big-heading {
     color: #131318;
-    text-align: center;
+    /* text-align: center; */
     font-size: 5vh;
     font-weight: 800;
 }
@@ -17,9 +17,11 @@
 
 .primary-text {
     color: rgba(19, 19, 24, 0.70);
+    /* text-align: center; */
     font-size: 2vh;
     font-weight: 400;
     line-height: 3vh;
+    margin-bottom: 3vh;
 }
 
 .secondary-text {
@@ -35,6 +37,10 @@
     width: 11vw;
     height: 6.3vh;
     border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: 800;
 }
 
 .input-btn {
@@ -128,6 +134,25 @@
     /* padding: 2vh 2vw; */
 }
 
+/* popular */
+
+.popular{
+    display: flex;
+    margin: 12.5vh 8vw;
+    gap: 10vw;
+    align-items: center;
+}
+
+
+.popular-image img{
+    width: 32vw;
+    height: auto;
+
+}
+
+.popular-text > h3{
+    margin-top: 0;
+}
 
 
 
@@ -136,6 +161,8 @@
 /* small device */
 
 @media screen and (max-width:600px) {
+
+    /* banner */
 
     .banner-image {
         height: auto;
@@ -172,4 +199,19 @@
         width: 99%;
     }
 
+    /* popular */
+
+    .popular{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .popular-image img{
+        width: 100%;
+    }
+
+    #read-more-btn{
+        width: 25%;
+    }
 }
