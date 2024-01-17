@@ -480,16 +480,25 @@ nav {
     margin-left: 28vw;
     margin-right: 6vw;
     position: relative;
-    top: 13vh;
+    top: 20vh;
     /* margin-top: 5vh; */
 }
 
 .deals-1-text h2 {
     margin: 0;
+    padding-left: 4.5vh;
+    padding-bottom: 2vh;
 }
 
 #deals-text {
     margin: 0;
+}
+
+#price{
+    color: #FF5400;
+    font-size: 2.5vh;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .deals-2 {
@@ -512,11 +521,22 @@ nav {
     margin-right: 28vw;
     margin-left: 6vw;
     position: relative;
-    top: 13vh;
+    top: 20vh;
 }
 
 .deals-2-text h2 {
     margin: 0;
+    padding-left: 4.5vh;
+    padding-bottom: 2vh;
+}
+
+#deals-btn{
+    position: relative;
+    left: 3vw;
+}
+
+#icon-color {
+    color: #FF5400;
 }
 
 
@@ -771,7 +791,7 @@ p,
         width: 80%;
     }
 
-    .deals-2-text{
+    .deals-2-text {
         margin: 0 auto;
         width: 80%;
     }
